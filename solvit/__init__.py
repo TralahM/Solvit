@@ -26,7 +26,7 @@ __version__ = "1.0.0"
 
 
 class Solvit:
-    @classmethod
+    @staticmethod
     def puzzle_from_csv(filename):
         lst = []
         with open(filename, "r") as f:
@@ -37,7 +37,7 @@ class Solvit:
                 lst.append(models.Expression(v, t))
         return models.Puzzle(lst)
 
-    @classmethod
+    @staticmethod
     def puzzle_from_tsv(filename):
         lst = []
         with open(filename, "r") as f:
