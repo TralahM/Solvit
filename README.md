@@ -33,6 +33,19 @@ $ git clone https://github.com/TralahM/Solvit.git
 $ cd Solvit
 ```
 
+
+## Input from a csv file of the Puzzle
+
+|-|-|-|-|--|
+|C|H|G|B|25|
+|A|J|C|D|23|
+|G|E|F|D|18|
+|E|H|A|F|10|
+|C|A|G|E|19|
+|H|J|E|H|13|
+|G|C|F|A|18|
+|B|D|D|F|26|
+
 # Contributing
 [See the Contributing File](CONTRIBUTING.rst)
 
