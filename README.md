@@ -24,6 +24,7 @@ Solvit Alphametic Puzzle Solver
 # How to Install
 ```bash
 # In terminal do:
+$ pip install solvit
 ```
 
 ## Building from Source for Developers
@@ -31,6 +32,7 @@ Solvit Alphametic Puzzle Solver
 ```console
 $ git clone https://github.com/TralahM/Solvit.git
 $ cd Solvit
+$ pip install -e .
 ```
 
 
@@ -67,6 +69,8 @@ $ cd Solvit
 [![TralahM](https://img.shields.io/badge/Github-TralahM-black.svg?style=for-the-badge)](https://github.com/TralahM)
 [![TralahM](https://img.shields.io/badge/Kaggle-TralahM-purple.svg?style=for-the-badge)](https://kaggle.com/TralahM)
 [![TralahM](https://img.shields.io/badge/LinkedIn-TralahM-red.svg?style=for-the-badge)](https://linkedin.com/in/TralahM)
+
+
 [![Blog](https://img.shields.io/badge/Blog-tralahm.tralahtek.com-blue.svg?style=for-the-badge)](https://tralahm.tralahtek.com)
 
 
