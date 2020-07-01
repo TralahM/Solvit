@@ -20,6 +20,7 @@
 SOLVIT
 """
 from . import models
+from argparse import ArgumentParser
 
 
 __version__ = "1.0.0"
@@ -47,3 +48,31 @@ class Solvit:
                 t = int(dat[-1])
                 lst.append(models.Expression(v, t))
         return models.Puzzle(lst)
+
+
+def main():
+    epilog = "Author: TralahM\n Email: <musyoki.brian@tralahtek.com>.\n Copyright:2020 (All Rights Reserved). "
+    ps = ArgumentParser(
+        description="Solvit Alphametic Puzzle Solver", epilog=epilog,)
+    ps.add_argument(
+        "-f",
+        "--file",
+        action="store",
+        dest="filename",
+        help="File containing solvit puzzle",
+    )
+    ps.add_argument(
+        "-t",
+        "--tsv",
+        action="store_true",
+        dest="tsv",
+        default=False,
+        help="is filetype tsv if not csv is assumed",
+    )
+    args = ps.parse_args()
+    if args.tsv:
+        puzzle = Solvit.puzzle_from_tsv(args.filename)
+        puzzle.solve()
+    else:
+        puzzle = Solvit.puzzle_from_csv(args.filename)
+        puzzle.solve()
