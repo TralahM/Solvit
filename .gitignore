@@ -116,3 +116,4 @@ _site
 .jekyll-metadata
 .jekyll-cache/*
 .jekyll-cache/*
+*.out
