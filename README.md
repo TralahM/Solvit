@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54598e49ab754b6a9451717613ae872f)](https://app.codacy.com/manual/musyoki.tralah/Solvit?utm_source=github.com&utm_medium=referral&utm_content=TralahM/Solvit&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/TralahM/Solvit.svg?branch=master)](https://travis-ci.com/TralahM/Solvit)
 [![Documentation Status](https://readthedocs.org/projects/Solvit/badge/?version=latest)](https://Solvit.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
