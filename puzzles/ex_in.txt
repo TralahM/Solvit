@@ -1,0 +1,8 @@
+e,a,d,g,26
+j,f,b,c,15
+g,e,f,j,20
+h,b,a,d,18
+e,j,g,h,23
+a,f,e,b,18
+d,b,f,a,15
+g,c,j,d,23
