@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!env python
 from argparse import ArgumentParser
 from sympy import Symbol
 from sympy import solve_linear_system
